@@ -1,9 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL_AfubauPlanungMonitoring">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="KAIRO\SQL2022:KAIRO\Administrator">
+          <Created>2023-06-19T09:26:01.0979084+02:00</Created>
+          <Type>SQL</Type>
+          <Server>KAIRO\SQL2022</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01_Virtualisierung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO\SQL2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01_Virtualisierung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_Setup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO\SQL2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_Serversetttings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO\SQL2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03_Serversetttings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_DBDesign.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO\SQL2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_DBDesign.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_DBObjekte.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO\SQL2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_DBObjekte.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_SystemDBs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO\SQL2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_SystemDBs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_DBSettings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO\SQL2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_DBSettings.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
