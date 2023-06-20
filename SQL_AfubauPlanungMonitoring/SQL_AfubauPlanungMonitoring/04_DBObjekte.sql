@@ -1,5 +1,111 @@
 --DBObjekte
 
+--Sichten  Views
+gemerkte Abfrage und verhält sich wie ein Tabelle
+
+SELECT
+INSERT
+UPDATE
+DELETE 
+IX
+Rechte auf Sichten setzen
+
+Grund für Sicht:
+häufig Security.. Zugriff auf Tabellendaten einschränken
+
+
+Schreibfaulheit
+
+create view KundeBestellung
+as
+SELECT        Customers.CompanyName, Orders.OrderDate, [Order Details].UnitPrice, [Order Details].Quantity, Products.ProductName
+FROM            Customers INNER JOIN
+                         Orders ON Customers.CustomerID = Orders.CustomerID INNER JOIN
+                         [Order Details] ON Orders.OrderID = [Order Details].OrderID INNER JOIN
+                         Products ON [Order Details].ProductID = Products.ProductID
+
+select * from kundeBestellung
+
+
+--Prozeduren  stored procedures
+
+
+---wie Windowsbatchdatei
+--kann alles beinhalten SEL INS UP DEL
+
+--wird aber anders ausgeführt
+
+exec namederporc par1, par2, par3
+
+
+
+--Functions
+
+select f(spalte), f(wert) from f(Wert)
+where f(spalte) > (f(wert)
+
+
+
+--a) adhoc 
+--b) Sicht
+--c) Proz
+--d) F()
+
+---langsam------------------------>schnell
+-- d/c        b/a      
+
+--QueryStore --Sammeln von Abfragen und Messwerten
+
+--Was wenn dem Agent das Recht fehlen würde
+--> PS  CMD
+
+--ProxyKonto
+
+--1: Anmeldeinformation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create view Sichtname
+as
+select ..
+
+select * from sichtname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 a) adhoc Abfragen 
