@@ -85,6 +85,12 @@
           <AssociatedConnUserName />
           <FullPath>06_Agent.sql</FullPath>
         </FileNode>
+        <FileNode Name="06_ContainedDB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_ContainedDB.sql</FullPath>
+        </FileNode>
         <FileNode Name="07_Emailsystem.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -109,6 +115,12 @@
           <AssociatedConnUserName />
           <FullPath>10_backup_Restore.sql</FullPath>
         </FileNode>
+        <FileNode Name="10_Security.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>10_Security.sql</FullPath>
+        </FileNode>
         <FileNode Name="10_Snapshot.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -121,10 +133,29 @@
           <AssociatedConnUserName />
           <FullPath>Z_instnwnd.sql</FullPath>
         </FileNode>
+        <FileNode Name="Z_SQL Server 2019 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_SQL Server 2019 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="SQL_AfubauPlanungMonitoring.ssmssqlproj">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL_AfubauPlanungMonitoring.ssmssqlproj</FullPath>
+        </FileNode>
+        <FileNode Name="SQLPOL.zip">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLPOL.zip</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
